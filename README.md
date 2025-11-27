@@ -51,19 +51,13 @@ Find The Match/
 
 ## Instalasi Backend
 
-1. Buka terminal dan masuk ke folder `Backend`:
-
-```powershell
-cd "d:/ITS/semester 3/Pemrograman Web/Tugas/Final Project EAS/Find The Match/Backend"
-```
-
-2. Install dependencies:
+1. Install dependencies:
 
 ```powershell
 npm install
 ```
 
-3. Buat koneksi MongoDB Atlas (jika belum):
+2. Buat koneksi MongoDB Atlas (jika belum):
 
    - Daftar/login ke https://www.mongodb.com/cloud/atlas
    - Buat Project baru dan Cluster (pilih tier gratis jika cukup)
@@ -71,7 +65,7 @@ npm install
    - Salin connection string (format `mongodb+srv://<username>:<password>@cluster0.xxxx.mongodb.net/<dbname>?retryWrites=true&w=majority`)
    - Pastikan Anda membuat user database (username/password) dan mengizinkan IP akses (bisa 0.0.0.0/0 untuk pengembangan)
 
-4. Copy file lingkungan dan isi variabel (PowerShell):
+3. Copy file lingkungan dan isi variabel (PowerShell):
 
 ```powershell
 copy .env.example .env
@@ -97,19 +91,13 @@ Server akan berjalan di `http://localhost:5000` (atau port sesuai `.env`).
 
 ## Instalasi Frontend
 
-1. Buka terminal dan masuk ke folder `Frontend`:
-
-```powershell
-cd "d:/ITS/semester 3/Pemrograman Web/Tugas/Final Project EAS/Find The Match/Frontend"
-```
-
-2. Install dependencies:
+1. Install dependencies:
 
 ```powershell
 npm install
 ```
 
-3. Jalankan dev server Vite:
+2. Jalankan dev server Vite:
 
 ```powershell
 npm run dev
